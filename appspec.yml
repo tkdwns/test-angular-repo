@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: dist/my-angular-project
-    destination: /var/www/user139-AngularBuild
+    destination: /var/www/my-angular-project
 permissions:
   - object: /var/www/my-angular-project
     pattern: '**'
